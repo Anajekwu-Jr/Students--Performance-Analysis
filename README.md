@@ -36,6 +36,8 @@ Attendance Rate
 
 🛠 Technologies Used
 
+EXCEL : Data Cleaning and Exploratory Data Analysis
+
 SQL: Data extraction, transformation, and analysis.
 
 MySQL: Database management.
