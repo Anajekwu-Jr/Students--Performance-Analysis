@@ -1,87 +1,83 @@
-JAMB Performance Analysis (2024)
+# 🎓 JAMB Performance Analysis (2024)
 
-📌 Overview
+## 📌 Overview
 
-This project presents a comprehensive analysis of the 2024 JAMB performance data, focusing on key factors influencing student scores. The analysis was conducted using SQL for data processing and Power BI for visualization. The goal is to provide insights that can help educators, policymakers, and students improve academic performance and decision-making.
+This project presents a comprehensive analysis of the 2024 JAMB performance data, focusing on key factors influencing student scores. The analysis was conducted using **SQL** for data processing and **Power BI** for data visualization. The goal is to generate insights that can support educators, policymakers, and students in improving academic performance and making informed decisions.
 
-🎯 Objectives
+---
 
-📊 Identify trends in JAMB performance based on socioeconomic status, parental involvement, and study habits.
+## 🎯 Objectives
 
-🔍 Examine the impact of school location, IT knowledge, and access to learning materials on exam outcomes.
+- 📊 Identify trends in JAMB performance based on socioeconomic status, parental involvement, and study habits.  
+- 🔍 Examine the impact of school location, IT knowledge, and access to learning materials on exam outcomes.  
+- 📈 Provide data-driven insights to support student preparation strategies and policymaking.
 
-📈 Provide data-driven insights to improve student preparation strategies and policymaking.
+---
 
-📂 Data Source
+## 📂 Data Source
 
-The dataset consists of 5,000 candidates with variables such as:
+The dataset includes **5,000 candidates** and the following variables:
 
-JAMB Score
+- `JAMB Score`
+- `Parental Involvement` (High, Medium, Low)
+- `Socioeconomic Status` (High, Medium, Low)
+- `Access to Learning Materials` (Yes, No)
+- `Study Hours per Week`
+- `School Type` (Public, Private)
+- `IT Knowledge` (High, Medium, Low)
+- `School Location` (Urban, Rural)
+- `Attendance Rate`
 
-Parental Involvement (High, Medium, Low)
+---
 
-Socioeconomic Status (High, Medium, Low)
+## 🛠 Technologies Used
 
-Access to Learning Materials (Yes, No)
+- **Microsoft Excel** – Data cleaning and exploratory analysis  
+- **MySQL** – Data extraction, transformation, and storage  
+- **SQL** – Querying and analysis  
+- **Power BI** – Dashboard creation and data visualization  
 
-Study Hours per Week
+---
 
-School Type (Public, Private)
+## 🔑 Key Findings
 
-IT Knowledge (High, Medium, Low)
+### 1. Parental Involvement & JAMB Scores
+Students with **high parental involvement** scored significantly higher (185–187) than those with **low involvement** (160–162).
 
-School Location (Urban, Rural)
+### 2. Socioeconomic Status & Performance
+Students from **higher socioeconomic backgrounds** averaged a score of **192**, while those from **lower status** averaged **160**.
 
-Attendance Rate
+### 3. Study Habits & Score Trends
+Performance improved with study hours:
+- 20+ hours/week: **184 average score**
+- 19 hours/week: **173 average score**
+- 18 hours/week: **158 average score**
 
-🛠 Technologies Used
+### 4. School Type & IT Knowledge
+Private school students, particularly those with **high IT knowledge**, consistently outperformed public school students.
 
-EXCEL : Data Cleaning and Exploratory Data Analysis
+### 5. Access to Learning Materials
+Students **with access** to learning materials scored **172** on average, while those **without access** scored **164**.
 
-SQL: Data extraction, transformation, and analysis.
+### 6. School Location
+Students in **urban areas** slightly outperformed those in **rural areas**:
+- Urban: **50.22%**
+- Rural: **49.78%**
 
-MySQL: Database management.
+---
 
-Power BI: Visualization of trends and insights.
+## 🏁 Conclusion
 
-🔑 Key Findings
+The analysis emphasizes the following recommendations:
 
-📌 1. Parental Involvement & JAMB Scores
+- 📌 Increase **parental involvement** in students’ academic lives.
+- 📌 Improve **access to learning resources**, especially for students from disadvantaged backgrounds.
+- 📌 Promote **effective study habits** and **IT literacy** to boost academic performance.
 
-Students with high parental involvement scored significantly higher (185-187) than those with low involvement (160-162).
+---
 
-📌 2. Socioeconomic Status & Performance
+## 📧 Contact
 
-Higher socioeconomic background students achieved better scores, with an average score of 192 for high-status students compared to 160 for low-status students.
+For questions, collaborations, or feedback, feel free to reach out! 08087955696
 
-📌 3. Study Habits & Score Trends
-
-More study hours correlated with better performance:
-
-20+ hours/week: 184 average score
-
-19 hours/week: 173 average score
-
-18 hours/week: 158 average score
-
-📌 4. School Type & IT Knowledge
-
-Private school students outperformed public school students, especially those with higher IT knowledge levels.
-
-📌 5. Access to Learning Materials
-
-Students with access to learning resources scored 172 on average, compared to 164 for those without access.
-
-📌 6. School Location
-
-Urban students had a slightly better performance than rural students, with a 50.22% to 49.78% score distribution.
-
-🏁 Conclusion
-
-The analysis highlights critical factors influencing JAMB performance, reinforcing the need for:
-
-📌 Increased parental engagement in student education.
-
-📌 Improved access to learning materials, particularly for students in lower socioeconomic brackets.
-
-📌 Encouragement of better study habits and IT literacy to enhance student outcomes.
+> Created with 💡 by Chidera Patrick Anajekwu.
